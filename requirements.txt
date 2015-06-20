@@ -1,0 +1,4 @@
+PyTumblr==0.0.6
+beautifulsoup4==4.3.2
+requests==2.7.0
+py2neo==2.0.7

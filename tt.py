@@ -90,7 +90,7 @@ def reblogs_into_neo4j(reblogs):
         everyone.add(reblog['reblogger'])
         everyone.add(reblog['reblogged_from'])
     nodes = {
-        name: Node("User", name=name),
+        name: Node("User", name=name)
         for name in everyone
     }
     for reblog in reblogs:
